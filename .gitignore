@@ -7,3 +7,6 @@ foo.*
 *.log
 data
 lazy-lock.json
+package-lock.json
+package.json
+lua/plugins/themes/*
