@@ -6,10 +6,6 @@ debug
 foo.*
 *.log
 data
-lazy-lock.json
-package-lock.json
-package.json
 lua/plugins/themes/*
-*/lazy-lock.json
 node_modules
 
