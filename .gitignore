@@ -8,4 +8,5 @@ foo.*
 data
 lua/plugins/themes/*
 node_modules
+lazy-lock.json
 
