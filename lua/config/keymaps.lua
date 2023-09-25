@@ -8,6 +8,9 @@ vim.keymap.del("n", "<leader><tab>]")
 vim.keymap.set("n", "<leader><tab>n", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 vim.keymap.set("n", "<leader><tab>p", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
 
+-- Disable q: for opening cmd-history
+vim.keymap.set("n", "q:", "", { desc = "Hack for disabeling cmd-history on this binding" })
+
 -- move line start and line ends
 
 -- map H ^
