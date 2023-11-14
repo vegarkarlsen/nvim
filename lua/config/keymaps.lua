@@ -8,5 +8,11 @@ vim.keymap.del("n", "<leader><tab>]")
 vim.keymap.set("n", "<leader><tab>n", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 vim.keymap.set("n", "<leader><tab>p", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
 
--- Disable q: for opening cmd-history
-vim.keymap.set("n", "q:", "Nop")
+-- Disable native cmd-history keybindings, <space>: is better
+-- FIXME: does only work when keybinding are pressed quick
+vim.keymap.set("n", "q:", "nop")
+vim.keymap.set("n", "q?", "Nop")
+vim.keymap.set("n", "q/", "Nop")
+vim.keymap.set("n", "C-f", "Nop")
+
+
