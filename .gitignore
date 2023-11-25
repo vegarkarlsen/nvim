@@ -9,4 +9,7 @@ data
 lua/plugins/themes/*
 node_modules
 lazy-lock.json
+lazyvim.json
+package-lock.json
+package.json
 
