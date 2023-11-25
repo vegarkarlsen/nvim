@@ -13,6 +13,7 @@ vim.keymap.set("n", "<leader><tab>p", "<cmd>tabprevious<cr>", { desc = "Previous
 vim.keymap.set("n", "q:", "nop")
 vim.keymap.set("n", "q?", "Nop")
 vim.keymap.set("n", "q/", "Nop")
-vim.keymap.set("n", "C-f", "Nop")
+vim.keymap.set("n","C-f", "Nop")
 
-
+-- Create new buffer
+vim.keymap.set("n", "<leader>bn", "<cmd>ene<cr>", { desc = "New buffer" })
