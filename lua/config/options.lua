@@ -13,5 +13,5 @@ vim.g.autoformat = false
 
 -- Dissables bloat by initializing plugins.disable
 Mode = {}
-Mode.lightmode = true
+Mode.lightmode = false
 
