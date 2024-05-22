@@ -17,3 +17,9 @@ vim.keymap.set("n","C-f", "Nop")
 
 -- Create new buffer
 vim.keymap.set("n", "<leader>bn", "<cmd>ene<cr>", { desc = "New buffer" })
+
+
+
+-- Move in insert moder
+-- vim.keymap.set("i", "<C-l>", "<C-o>a", { desc = "" })
+-- vim.keymap.set("i", "<C-h>", "<C-o>h", { desc = "" })
