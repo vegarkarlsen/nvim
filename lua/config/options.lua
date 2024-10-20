@@ -11,7 +11,6 @@ vim.opt.shiftwidth = 4 -- Number of spaces inserted when indenting
 -- disable autoformat
 vim.g.autoformat = false
 
--- Dissables bloat by initializing plugins.disable
-Mode = {}
-Mode.lightmode = false
+-- Use telescope over fzf
+vim.g.lazyvim_picker = "telescope"
 
