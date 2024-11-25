@@ -8,9 +8,17 @@ vim.opt.expandtab = true -- Pressing the TAB key will insert spaces instead of a
 vim.opt.softtabstop = 4 -- Number of spaces inserted instead of a TAB character
 vim.opt.shiftwidth = 4 -- Number of spaces inserted when indenting
 
+vim.opt.spelllang = { "en_us" }
+
 -- disable autoformat
 vim.g.autoformat = false
 
 -- Use telescope over fzf
 vim.g.lazyvim_picker = "telescope"
+-- vim.g.lazyvim_picker = "fzf"
+
+-- Vimtex
+vim.g.vimtex_view_method = "zathura"
+
+
 
