@@ -5,7 +5,15 @@
 vim.api.nvim_create_autocmd("FileType", {
     pattern = { "markdown", "text", "tex" },
     callback = function()
-        vim.opt_local.spell = true
-        vim.opt_local.textwidth = 80
-    end
+        local o = vim.opt_local
+        o.spell = true
+        o.textwidth = 80
+        o.wrapmargin = 0
+        o.formatoptions:append("t")
+        o.linebreak = true
+        o.tabstop = 2
+        o.softtabstop = 2
+        o.shiftwidth = 2
+        return o
+    end,
 })
