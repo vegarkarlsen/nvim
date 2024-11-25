@@ -1,3 +1,6 @@
+-- Do not load! This is only a example
+if true then return { } end
+
 local ls = require("luasnip")
 -- some shorthands...
 local s = ls.snippet
