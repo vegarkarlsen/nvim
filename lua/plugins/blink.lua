@@ -1,6 +1,8 @@
 -- The blink.cmp module handles autosuggestions and snippets etc.
 --
 -- TODO: Fix supertab for vscode
+-- Need to fix ai_accept ref https://www.lazyvim.org/extras/coding/blink,
+-- if we are going to use these modules
 
 return {
     {

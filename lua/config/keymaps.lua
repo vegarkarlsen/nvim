@@ -19,7 +19,7 @@ vim.keymap.set("i", "<C-p>", "<Nop>")
 -- Create new buffer
 vim.keymap.set("n", "<leader>bn", "<cmd>ene<cr>", { desc = "New buffer" })
 
--- marks
+-- marks TODO: add proper delmark function (without popup)
 vim.keymap.set("n", "m", "<Nop>")
 vim.keymap.set("n", "mm", "m", { desc = "Mark" })
 vim.keymap.set("n", "md", ":delmark ", { desc = "Delete mark" })

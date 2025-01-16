@@ -15,6 +15,7 @@ vim.g.autoformat = false
 
 -- Select picker: (snacks, telescope, fzf)
 vim.g.lazyvim_picker = "snacks"
+-- vim.g.snacks_animate = false
 
 -- Vimtex
 vim.g.vimtex_view_method = "zathura"
