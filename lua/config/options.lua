@@ -13,12 +13,9 @@ vim.opt.spelllang = { "en_us" }
 -- disable autoformat
 vim.g.autoformat = false
 
--- Use telescope over fzf
-vim.g.lazyvim_picker = "telescope"
--- vim.g.lazyvim_picker = "fzf"
+-- Select picker: (snacks, telescope, fzf)
+vim.g.lazyvim_picker = "snacks"
 
 -- Vimtex
 vim.g.vimtex_view_method = "zathura"
-
-
 
