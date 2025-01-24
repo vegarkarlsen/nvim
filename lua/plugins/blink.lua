@@ -8,6 +8,13 @@ return {
     {
         "saghen/blink.cmp",
         opts = {
+            completion = {
+                accept = {
+                    auto_brackets = {
+                        enabled = false
+                    },
+                },
+            },
             keymap = {
                 ["<Tab>"] = {
                     function(cmp)
@@ -29,6 +36,14 @@ return {
                     end,
                     "fallback",
                 },
+                ["<C-l>"] = {
+                    "snippet_forward",
+                    "fallback",
+                },
+                ["<C-h>"] = {
+                    "snippet_backward",
+                    "fallback",
+                },
             },
         },
     },
@@ -37,5 +52,5 @@ return {
         optional = true,
         opts = {},
         version = not vim.g.lazyvim_blink_main and "*",
-    }
+    },
 }

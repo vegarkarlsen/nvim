@@ -27,3 +27,6 @@ vim.keymap.set("n", "md", ":delmark ", { desc = "Delete mark" })
 -- Motion
 -- vim.keymap.set({ "n", "v" }, "gs", "g^", { desc = "Go to start of line " })
 -- vim.keymap.set({ "n", "v" }, "gl", "g$", { desc = "Go to end of line " })
+
+vim.keymap.set("i", "<C-l>", "<Nop>", {desc = ""})
+vim.keymap.set("i", "<C-h>", "<Nop>", {desc = ""})
