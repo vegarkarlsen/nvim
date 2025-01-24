@@ -11,13 +11,20 @@ if false then
 end
 
 return {
-    {
+    {   -- Add luassnip to blink snippet handeling
+        "saghen/blink.cmp",
+        dependencies = { "L3MON4D3/LuaSnip", version = "v2.*" },
+        opts = {
+            snippets = { preset = "luasnip" },
+        },
+    },
+    {   -- Add latex snippets
         "iurimateus/luasnip-latex-snippets.nvim",
         require = { "L3MON4D3/LuaSnip" },
         config = function()
             require("luasnip-latex-snippets").setup({
                 use_tresitter = true,
-                allow_on_markdown = false,
+                allow_on_markdown = true,
             })
             require("luasnip").config.setup({ enable_autosnippets = true })
 
