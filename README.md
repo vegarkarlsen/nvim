@@ -1,4 +1,12 @@
-# 💤 LazyVim
+# 💤 neovim config based upon lazyvim
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## Prerequisits
+
+- lazygit
+- fzf
+- nodejs
+- npm
+- c++ compiler
+- ripgrep
+
+
