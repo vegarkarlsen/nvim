@@ -12,16 +12,16 @@ return {
         },
         keys = {
             {
-                "nv",
                 "<localleader>se",
                 mode = { "n", "v" },
                 function()
-                    require("scissors").editSnippets()
+                    require("scissors").editSnippet()
                 end,
                 { desc = "Snippet: Edit" },
             },
             {
                 "<localleader>sa",
+                mode = { "n", "v" },
                 function()
                     require("scissors").addNewSnippet()
                 end,
